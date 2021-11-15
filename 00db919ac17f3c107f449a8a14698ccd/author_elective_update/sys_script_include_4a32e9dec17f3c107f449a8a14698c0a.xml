@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_cicd_lab.feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>feature_04321</name>
+        <script><![CDATA[var feature_052621 = Class.create();
+feature_052621.prototype = {
+    initialize: function() {
+   },
+
+    sayHello: function() {
+		return "Hello!";
+    },
+ 
+   type: 'feature_052621'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 16:23:45</sys_created_on>
+        <sys_id>4a32e9dec17f3c107f449a8a14698c0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_04321</sys_name>
+        <sys_package display_value="CICD_Lab" source="x_snc_cicd_lab">00db919ac17f3c107f449a8a14698ccd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD_Lab">00db919ac17f3c107f449a8a14698ccd</sys_scope>
+        <sys_update_name>sys_script_include_4a32e9dec17f3c107f449a8a14698c0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 16:23:45</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CICD_Lab">00db919ac17f3c107f449a8a14698ccd</application>
+        <file_path/>
+        <instance_id>79f2d3c8db2f3050d2c8e797059619fc</instance_id>
+        <instance_name>nowlearning-lpt0509409-dev-001</instance_name>
+        <name>sys_script_include_4a32e9dec17f3c107f449a8a14698c0a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_cicd_lab.feature_04321&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;feature_04321&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var feature_052621 = Class.create();
+feature_052621.prototype = {
+    initialize: function() {
+   },
+
+    sayHello: function() {
+		return "Hello!";
+    },
+ 
+   type: 'feature_052621'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-15 16:23:45&lt;/sys_created_on&gt;&lt;sys_id&gt;4a32e9dec17f3c107f449a8a14698c0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;feature_04321&lt;/sys_name&gt;&lt;sys_package display_value="CICD_Lab" source="x_snc_cicd_lab"&gt;00db919ac17f3c107f449a8a14698ccd&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="CICD_Lab"&gt;00db919ac17f3c107f449a8a14698ccd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4a32e9dec17f3c107f449a8a14698c0a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-15 16:23:45&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2131046535</payload_hash>
+        <record_name>feature_04321</record_name>
+        <reverted_from/>
+        <source>b4fb9d1ac17f3c107f449a8a14698cd9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 16:23:46</sys_created_on>
+        <sys_id>f762addec17f3c107f449a8a14698c74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d2469629d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 16:23:46</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3362added17f3c107ed7055820373174</update_guid>
+        <update_guid_history>3362added17f3c107ed7055820373174:2131046535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 16:37:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0465345b3bdd40f6859be8308fc7a151</sys_id>
+        <sys_metadata>4a32e9dec17f3c107f449a8a14698c0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_04321</sys_name>
+        <sys_package display_value="CICD_Lab" source="x_snc_cicd_lab">00db919ac17f3c107f449a8a14698ccd</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD_Lab">00db919ac17f3c107f449a8a14698ccd</sys_scope>
+        <sys_scope_delete display_value="">c55ae7c3bcaf46ec9b291d080dff5e90</sys_scope_delete>
+        <sys_update_name>sys_script_include_4a32e9dec17f3c107f449a8a14698c0a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4a32e9dec17f3c107f449a8a14698c0a">f762addec17f3c107f449a8a14698c74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 16:37:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
